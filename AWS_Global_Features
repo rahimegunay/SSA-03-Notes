@@ -3,3 +3,7 @@ AWS Regions have 3 main benefits
 1- Each region has separate geographically (Isolated Fault Domain)
 2- Geopolitical separation (ifferent Governance)
 3- Locational Control(Perfomance)
+
+-----------------------------------
+Every region has multiple Availability Zones(AZ) it could be 2,3,4,5 and 6
+

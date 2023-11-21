@@ -7,3 +7,7 @@ AWS Regions have 3 main benefits
 -----------------------------------
 Every region has multiple Availability Zones(AZ) it could be 2,3,4,5 and 6
 
+## NOTES 
+- Use a serverless achitecture when you are starting from a scratch
+- Leverage Amazon  S3, Amazon Cloudfront, Amazon API Gateway, Step Functions, Amazon cognito, AWS AppSync for serverless environment
+- Use Amazon EC&EKS when using a Docker container.

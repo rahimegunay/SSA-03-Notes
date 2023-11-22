@@ -13,3 +13,7 @@ Every region has multiple Availability Zones(AZ) it could be 2,3,4,5 and 6
 - Use Amazon EC&EKS when using a Docker container.
 - Use AWS Fargate to manage container provisioning and scaling
 - Use Amazon Elastic Beanstalk when working with monolithic applications.
+
+
+## AWS Storage
+

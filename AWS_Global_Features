@@ -33,10 +33,18 @@ Securing your data is a top-level concern.
 
 *** Core Storage services: Block, File, Object
 
-*** Edge and Hybrid Cloud Storage Services
+*** Edge and Hybrid Cloud Storage Services (AWS Snow Family, AWS Outposts, AWS Storage Gateway)
 - Edge computing and storage
 - On-premises cloud storage
 - gateways
+
+*** Data Transfer and Migration Services (AWS Transfer Family, AWS DataSync, AWS SnowFamily, Application Migration Service)
+- File transfer services,
+- Data Synchronization and managed online transfer
+- Offline transfer services
+- Migration Services
+
+
 
 
 

@@ -44,6 +44,14 @@ Securing your data is a top-level concern.
 - Offline transfer services
 - Migration Services
 
+*** Data Protection services (AWS Backup, Native Service Snapshots, CloudEndure Disaster Recovery)
+- Backup and Archive,
+- Snapshots,
+- Replication
+- Disaster Recovery Services
+
+
+
 
 
 

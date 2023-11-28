@@ -29,9 +29,15 @@ Why organizations move to the cloud?
 - Test use cases
 - Try different storage services for your existing ones.
 
-Securing your data is top-level concern.
+Securing your data is a top-level concern.
 
 *** Core Storage services: Block, File, Object
+
+*** Edge and Hybrid Cloud Storage Services
+- Edge computing and storage
+- On-premises cloud storage
+- gateways
+
 
 
 

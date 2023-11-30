@@ -50,6 +50,8 @@ Securing your data is a top-level concern.
 - Replication
 - Disaster Recovery Services
 
+!!!AWS offers lift-and-shift migration by providing automated tools such as AWS Application Migration Service (AWS MGN) and AWS Server Migration Service (AWS SMS).
+
 
 
 

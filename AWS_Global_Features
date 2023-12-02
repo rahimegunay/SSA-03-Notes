@@ -61,6 +61,9 @@ You can access the full range of AWS services available in the Region to build, 
 You can also include Amazon Simple Storage Service (Amazon S3) as part of your AWS Outposts implementation.
 
 *** Hybrid Storage Solutions AWS Storage Gateway
+- AWS Storage Gateway is a hybrid solution that connects an on-premises software appliance with cloud-based storage.
+Storage Gateway provides seamless integration with data security features between your on-premises IT environment and the AWS storage infrastructure. 
+- Storage Gateway offers file-based file gateways (Amazon S3 File and Amazon FSx File), volume-based (Cached and Stored), and tape-based storage solutions.
 
 
 

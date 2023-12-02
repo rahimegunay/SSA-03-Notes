@@ -53,12 +53,14 @@ Securing your data is a top-level concern.
 !!!AWS offers lift-and-shift migration by providing automated tools such as AWS Application Migration Service (AWS MGN) and AWS Server Migration Service (AWS SMS).
 
 
-*** Hybrid Solutions AWS Outposts
+*** Hybrid Storage Solutions AWS Outposts
 
 - AWS Outposts brings the AWS Cloud services into your data center. AWS compute, storage, database, and other services run locally on Outposts. 
 You can access the full range of AWS services available in the Region to build, manage, and scale your on-premises applications using familiar AWS services and tools.
 - AWS Outposts currently supports Amazon Elastic Block Store (Amazon EBS) for block storage. 
 You can also include Amazon Simple Storage Service (Amazon S3) as part of your AWS Outposts implementation.
+
+*** Hybrid Storage Solutions AWS Storage Gateway
 
 
 

@@ -86,6 +86,15 @@ The blocks are the basic fixed storage units used to store data on the device.
 Storage devices can be hard disk drives (HDDs), solid state drives (SSDs), or newer types of storage devices, such as Non-Volatile Memory Express (NVMe).
 In addition to individual storage devices, block storage can be deployed on storage area network (SAN) systems.
 
+*******File Storage
+File storage is built on top of block storage, typically serving as a file share or file server. 
+File storage is created using an operating system that formats and manages the reading and writing of data to the block storage devices.
+The name file storage comes from the primary use of storing data as files typically in a directory tree hierarchy.
+The two most common storage protocols for file storage are Server Message Block (SMB) and Network File System (NFS), which are network protocols that enable users to communicate with remote computers and servers. 
+The protocols enable users to use the servers' resources or share, open, and edit files.
+
+
+
 
 
 

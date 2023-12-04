@@ -93,6 +93,14 @@ The name file storage comes from the primary use of storing data as files typica
 The two most common storage protocols for file storage are Server Message Block (SMB) and Network File System (NFS), which are network protocols that enable users to communicate with remote computers and servers. 
 The protocols enable users to use the servers' resources or share, open, and edit files.
 
+*******Object Storage
+Object storage is also built on top of block storage. 
+Object storage is created using an operating system that formats and manages the reading and writing of data to the block storage devices. 
+The name object storage comes from the primary use of storing the data within a binary object. 
+Unlike file storage, object storage does not differentiate between types of data. The type of data or the file type becomes part of the data's metadata.
+An object is made up of a larger sets of blocks organized using a predetermined size. 
+For example, one object storage system uses binary object sizes of 128 megabytes (MB). 
+Smaller files or data are stored at a binary level within the object. Larger data files are stored by spreading the data across multiple objects.
 
 
 

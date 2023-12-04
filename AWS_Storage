@@ -79,6 +79,13 @@ host a static web site, retain version information on objects, and employ life-c
 S3 supports both resource-based and user-based access controls. 
 Access control lists (ACLs) and bucket policies are both examples of resource-based access control. 
 
+********Block Storage
+Block storage is raw storage in which the hardware storage device or drive is presented, as either disk or volume, to be formatted and attached to the compute system for use. 
+The storage is formatted into predefined continuous segments on the storage device. These segments are called blocks, which is where this storage type gets its name. 
+The blocks are the basic fixed storage units used to store data on the device.
+Storage devices can be hard disk drives (HDDs), solid state drives (SSDs), or newer types of storage devices, such as Non-Volatile Memory Express (NVMe).
+In addition to individual storage devices, block storage can be deployed on storage area network (SAN) systems.
+
 
 
 

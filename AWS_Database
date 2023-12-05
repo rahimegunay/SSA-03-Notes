@@ -12,4 +12,22 @@ Semistructured data is often stored in non-relational stores.
 Common stores for unstructured data are non-relational key-value databases. 
 Unstructured data is full of irrelevant information, which means data needs to first be processed to perform any kind of meaningful analysis.
 
+***** Relational Database
+- Relational databases rely on a series of structures, called tables, to hold data. 
+These tables group data based on a person, place, thing, or event related to that data. 
+These groupings are referred to as entities. Each entity is stored as a table.
+
+A column, known as a field, describes one attribute of the entity. 
+A row, known as a record, represents a single instance of an entity. 
+Think of a spreadsheet, where each row has a cell for each column. 
+Each cell can contain a value. Rules within the schema define if the attribute is required or optional.
+
+- Online transaction processing (OLTP) databases focus on recording Update, Insertion, and Deletion data transactions. 
+OLTP queries are simple and short, which requires less time and space to process. 
+A great example of an OLTP system is a bank ATM, in which you can modify your bank account using short transactions. 
+
+- Online analytical processing (OLAP) databases store historical data that has been input by OLTP.
+OLAP databases allow users to view different summaries of multidimensional data. 
+Using OLAP, you can extract information from a large database and analyze it for decision-making. A good example of an OLAP system is a business intelligence tool.
+
 

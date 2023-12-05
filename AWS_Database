@@ -1,1 +1,15 @@
+# Data source types
+- Structured data is often organized to support transactional and analytical applications. 
+Structured data is most commonly stored in relational databases but can also be stored in non-relational databases. 
+This data source type is valuable because you can gain insight into overarching trends by efficiently running powerful data queries and analysis.
+
+- Semistructured data can be just as predictable and organized as structured data. 
+The difference is that semistructured data is flexible and can be updated without the requirement to change the schema for every single record in a table. 
+Semistructured data allows a user to capture any data in any structure as data evolves and changes over time. 
+Semistructured data is often stored in non-relational stores.
+
+- Unstructured data is not organized in any distinguishable or predefined manner. 
+Common stores for unstructured data are non-relational key-value databases. 
+Unstructured data is full of irrelevant information, which means data needs to first be processed to perform any kind of meaningful analysis.
+
 

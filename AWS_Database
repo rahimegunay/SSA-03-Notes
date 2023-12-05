@@ -30,4 +30,12 @@ A great example of an OLTP system is a bank ATM, in which you can modify your ba
 OLAP databases allow users to view different summaries of multidimensional data. 
 Using OLAP, you can extract information from a large database and analyze it for decision-making. A good example of an OLAP system is a business intelligence tool.
 
+***Amazon RDS benefits
+-Easy to manage
+-choice of engines
+-high availability
+-operational expertise
+
+
+
 

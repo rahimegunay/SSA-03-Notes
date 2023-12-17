@@ -1,0 +1,12 @@
+Netwrok Communication Protocols
+How do we ensure your communication across the network? Communication protocols determine the formats and rules used to transfer data over the network. 
+This applies to both hardware and software. 
+Communication protocols also handle authentication and error detection as well as the syntax, synchronization, and semantics that both analog and digital communications must abide by to function.
+
+HTTP – Hypertext transfer protocol (HTTP)(opens in a new tab) is an application layer protocol that allows the browser and server to communicate.
+TCP – Transmission Control Protocol (TCP)(opens in a new tab) separates data into packets that can be shared over a network. 
+These packets can then be sent by devices like switches and routers to the designated targets.
+UDP – User Datagram Protocol (UDP)(opens in a new tab) works in a similar way to TCP, sending packets of data over the network. 
+The key difference between the two is that TCP ensures that a connection is made between the application and server, but UDP does not.
+IRC – Internet Relay Chat (IRC)(opens in a new tab) is a text-based communication protocol. 
+Software clients are used to communicate with servers and send messages to other clients. This protocol works well on networks with a large number of distributed machines.

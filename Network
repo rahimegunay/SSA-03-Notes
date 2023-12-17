@@ -27,3 +27,16 @@ This TCP-based protocol adds visibility and the ability to modify endpoints whic
 SNMP relies on the use of agents to collect and send data to an overarching SNMP manager, which in turn queries agents and gets their responses.
 ICMP – Internet Control Message Protocol (ICMP)(opens in a new tab) is primarily used for diagnostic purposes. 
 Managed devices on the network can use this protocol to send error messages, providing information regarding network connectivity issues between devices.
+
+# Network Security Protocols
+
+Network security protocols ensure that data traffic on your network is secure. 
+These protocols define how the network secures data from malicious attempts. This protects the data from unauthorized users, services, or devices that access your network data.
+
+Network security protocols rely on encryption and cryptography to secure data.
+
+Common security protocols: 
+
+SSL – A Secure Sockets Layer (SSL)(opens in a new tab) is a network security protocol primarily used for ensuring secure internet connections and protecting sensitive data. This protocol can allow for server/client communication as well as server/server communication. Data transferred with SSL is encrypted to prevent it from being readable.
+SFTP – Secure File Transfer Protocol (SFTP)(opens in a new tab), as its name might suggest, is used to securely transfer files across a network. Data is encrypted and the client and server are authenticated.
+HTTPS – Secure Hypertext Transfer Protocol(opens in a new tab) is the secure version of HTTP. Data sent between the browser and server are encrypted to ensure protection.

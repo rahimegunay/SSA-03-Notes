@@ -1,4 +1,4 @@
-Netwrok Communication Protocols
+# Network Communication Protocols
 How do we ensure your communication across the network? Communication protocols determine the formats and rules used to transfer data over the network. 
 This applies to both hardware and software. 
 Communication protocols also handle authentication and error detection as well as the syntax, synchronization, and semantics that both analog and digital communications must abide by to function.
@@ -10,3 +10,20 @@ UDP – User Datagram Protocol (UDP)(opens in a new tab) works in a similar way 
 The key difference between the two is that TCP ensures that a connection is made between the application and server, but UDP does not.
 IRC – Internet Relay Chat (IRC)(opens in a new tab) is a text-based communication protocol. 
 Software clients are used to communicate with servers and send messages to other clients. This protocol works well on networks with a large number of distributed machines.
+
+
+# Network Management Protocols
+Network management protocols define the policies and procedures used to monitor, manage, and maintain your network. 
+This ensures stable communication and optimal performance for your network, and these protocols can be applied to all devices on your network (computers, switches, routers, and servers).
+
+Management protocols help to: 
+
+Troubleshoot connections between host and client devices. 
+Provide connection status, availability, packet or data loss, and so on related to the health of your network connection.
+Common network management protocols:
+
+SNMP – Simple Network Management Protocol (SNMP)(opens in a new tab) is used to monitor and manage network devices. 
+This TCP-based protocol adds visibility and the ability to modify endpoints which alter behavior of devices across the network. 
+SNMP relies on the use of agents to collect and send data to an overarching SNMP manager, which in turn queries agents and gets their responses.
+ICMP – Internet Control Message Protocol (ICMP)(opens in a new tab) is primarily used for diagnostic purposes. 
+Managed devices on the network can use this protocol to send error messages, providing information regarding network connectivity issues between devices.

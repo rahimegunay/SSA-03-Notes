@@ -64,3 +64,9 @@ Additional Amazon VPC considerations
 
 
 - All traffic between two points in the same Amazon VPC is forwarded directly.
+
+
+******NOTES******
+Stateful is allowing traffic in and the response out automatically.
+
+Stateless is allowing traffic in and the response is blocked from leaving unless explicitly permitted by a rule.

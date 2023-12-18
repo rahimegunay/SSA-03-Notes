@@ -40,3 +40,11 @@ Common security protocols:
 SSL – A Secure Sockets Layer (SSL)(opens in a new tab) is a network security protocol primarily used for ensuring secure internet connections and protecting sensitive data. This protocol can allow for server/client communication as well as server/server communication. Data transferred with SSL is encrypted to prevent it from being readable.
 SFTP – Secure File Transfer Protocol (SFTP)(opens in a new tab), as its name might suggest, is used to securely transfer files across a network. Data is encrypted and the client and server are authenticated.
 HTTPS – Secure Hypertext Transfer Protocol(opens in a new tab) is the secure version of HTTP. Data sent between the browser and server are encrypted to ensure protection.
+
+Summary of AWS VPC
+1. Amazon VPCs live entirely within the AWS Cloud.
+2. An Amazon VPC lives in one Region.
+3. A subnet can only live in one Availability Zone.
+4. Some AWS resources must be launched into an Amazon VPC.
+5. Internet gateways let your VPC resources reach the internet.
+6. Route tables control the routing of traffic coming into, going out of, and moving within your Amazon VPC.

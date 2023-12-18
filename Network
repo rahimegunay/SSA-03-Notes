@@ -48,3 +48,19 @@ Summary of AWS VPC
 4. Some AWS resources must be launched into an Amazon VPC.
 5. Internet gateways let your VPC resources reach the internet.
 6. Route tables control the routing of traffic coming into, going out of, and moving within your Amazon VPC.
+
+Additional Amazon VPC considerations
+
+- The only architectural difference between a public and private subnet is that a public subnet has a route to an internet gateway.
+
+
+- By default, DNS is handled by Amazon VPC. It is possible, however, to use Amazon Route 53 to create your own DNS inside an Amazon VPC with private hosted zones.
+
+
+- All traffic is unicast and Amazon VPCs do not require the Address Resolution Protocol (ARP).
+
+
+- By default, all subnets in an Amazon VPC can access each other. You can use network network ACLs to restrict traffic into and out of your subnets.
+
+
+- All traffic between two points in the same Amazon VPC is forwarded directly.

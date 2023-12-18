@@ -67,6 +67,6 @@ Additional Amazon VPC considerations
 
 
 ******NOTES******
-Stateful is allowing traffic in and the response out automatically.
+Stateful is allowing traffic in and the response out automatically. (Security Groups)
 
-Stateless is allowing traffic in and the response is blocked from leaving unless explicitly permitted by a rule.
+Stateless is allowing traffic in and the response is blocked from leaving unless explicitly permitted by a rule.(Network ACL-Access Control List)

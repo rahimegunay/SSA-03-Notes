@@ -82,3 +82,11 @@ networking concepts in the context of the AWS Cloud:
 
 ******NOTES********
 A VPC peering connection is a networking connection between two VPCs that lets you route traffic between them privately.
+
+* These specific AWS services used in architecting your network:
+
+VPC endpoints and AWS PrivateLink
+VPC peering
+Direct Connect
+AWS Site-to-Site VPN and Client VPN
+AWS Transit Gateway

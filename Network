@@ -80,3 +80,5 @@ networking concepts in the context of the AWS Cloud:
 - Hybrid networks
 - High performance
 
+******NOTES********
+A VPC peering connection is a networking connection between two VPCs that lets you route traffic between them privately.

@@ -70,3 +70,13 @@ Additional Amazon VPC considerations
 Stateful is allowing traffic in and the response out automatically. (Security Groups)
 
 Stateless is allowing traffic in and the response is blocked from leaving unless explicitly permitted by a rule.(Network ACL-Access Control List)
+
+***Network Concepts***
+networking concepts in the context of the AWS Cloud:
+
+- Multi-tier architecture
+- Multi-VPC architecture
+- High availability
+- Hybrid networks
+- High performance
+

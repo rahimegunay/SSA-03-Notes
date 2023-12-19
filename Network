@@ -71,7 +71,7 @@ Stateful is allowing traffic in and the response out automatically. (Security Gr
 
 Stateless is allowing traffic in and the response is blocked from leaving unless explicitly permitted by a rule.(Network ACL-Access Control List)
 
-***Network Concepts***
+***Network Connectivity Concepts***
 networking concepts in the context of the AWS Cloud:
 
 - Multi-tier architecture

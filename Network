@@ -153,3 +153,37 @@ Using the Systems Manager console, you can view operational data from multiple A
 All AWS data is contained inside a namespace named AWS/service.  
 For a peering connection, it would be AWS/PCX.
 
+!!!!!Only the first option is correct because it is the only one that shows the packet both rejected and has a destination port of 3389. Option 3 shows a rejected packet but the destination port is 49761. Options 2 and 3 both show packets that were accepted.
+
+To view an example of this, visit Module 3's lesson on VPC Flow Logs.
+
+Option 1 log anatomy:
+
+
+2 123456789010 eni-1235b8ca123456789 172.31.9.69 172.31.9.12 49761 3389 6 20 4249 1418530010 1418530070 REJECT OK
+
+Account number: 123456789010
+
+
+Network Interface: eni-1235b8ca123456789
+
+
+Source IP: 172.31.9.69
+
+
+Source Port: 49761
+
+
+Destination IP: 172.31.9.12
+
+
+Destination Port: 3389
+
+
+Protocol: 6 (TCP)
+
+
+Packet Size: 20
+
+Packet Status: Rejected
+

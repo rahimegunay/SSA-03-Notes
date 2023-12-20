@@ -212,3 +212,10 @@ Packet Size: 54
 
 Packet Status: Accepted
 
+!!!The following traffic types cannot be mirrored:
+
+ARP
+DHCP
+Instance metadata service
+NTP
+Windows activation

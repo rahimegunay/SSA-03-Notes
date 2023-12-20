@@ -187,3 +187,28 @@ Packet Size: 20
 
 Packet Status: Rejected
 
+!!!!!EXAMPLE
+Only Option 3 is correct because it is the only that shows that the packet was allowed, is IPv6, and is from the correct account. Option 1 is incorrect because it labels the packet as IPv4. Option 2 is incorrect because it shows the packet as rejected. Option 4 is incorrect because the wrong network interface is shown.
+
+
+2 12345678910 eni-1235b8ca123456789 2001:db8:1234:a100:8d6e:3477:df66:f105 2001:db8:1234:a102:3304:8879:34cf:4071 34892 22 6 54 8855 1477913708 1477913820 ACCEPT OK
+
+
+Account number: 12345678910
+
+Network Interface: eni-1235b8ca123456789
+
+Source IP: 2001:db8:1234:a100:8d6e:3477:df66:f105
+
+Source Port: 34892
+
+Destination IP: 2001:db8:1234:a102:3304:8879:34cf:4071
+
+Destination Port: 22
+
+Protocol: 6
+
+Packet Size: 54
+
+Packet Status: Accepted
+

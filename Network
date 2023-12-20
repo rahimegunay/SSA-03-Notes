@@ -92,7 +92,7 @@ AWS Site-to-Site VPN and Client VPN
 AWS Transit Gateway
 
 ****NOTES***
-The network design is the network infrastructure that refers to all of the resources of a network that make network or internet connectivity, management, business operations, and communication possible. 
+!!!!The network design is the network infrastructure that refers to all of the resources of a network that make network or internet connectivity, management, business operations, and communication possible. 
 Network infrastructure comprises hardware and software, systems and devices, and it enables computing and communication between users, services, applications and processes. Anything involved in the network, from servers to wireless routers, comes together to make up a system’s network infrastructure and should be documented and updated with any and all changes.
 
 The other response options are incorrect because:
@@ -100,3 +100,11 @@ The other response options are incorrect because:
 Network baselines are ideal performance metrics obtained by measuring your network for a particular time period.
 Performance monitoring systems refers to any tool or application designed to collect health status data and performance metrics about a network's or system's operational health.
 Security monitoring systems monitors to help protect from the potential vulnerabilities and exploits.
+
+!!!!Performance monitoring system are tools designed to collect health status data and performance metrics about a network's or system's operational health.
+
+The other response options are incorrect because:
+
+A system monitor is a hardware or software component used to monitor system resources and performance in a computer system
+Network baselines are ideal performance metrics obtained by measuring your network for a particular time period.
+Security monitoring systems monitors to help protect from potential vulnerabilities and exploits.

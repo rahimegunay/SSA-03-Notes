@@ -111,10 +111,15 @@ Security monitoring systems monitors to help protect from potential vulnerabilit
 
 !!!!CloudWatch metrics are collected in a time ordered structure and CloudWatch automatically collects metrics from our AWS account relating to the AWS services, products, applications, and so on that you are using/consuming.
 
-
-
 You configure AWS Lambda functions to initiate on a schedule with CloudWatch and monitoring of the metrics.
 
+CloudWatch collects metrics for most AWS services.
+It is not a best-effort attempt to collect metrics but a time ordered structure of detailed monitoring every minute or the default monitoring of every 5 minutes.
 
+!!!!!!CloudWatch retains metric data as follows: 
 
-CloudWatch collects metrics for most AWS services.  It is not a best-effort attempt to collect metrics but a time ordered structure of detailed monitoring every minute or the default monitoring of every 5 minutes.
+Data points with a period of less than 60 seconds are available for 3 hours. These data points are high-resolution custom metrics.
+Data points with a period of 60 seconds (1 minute) are available for 15 days
+Data points with a period of 300 seconds (5 minutes) are available for 63 days 
+Data points with a period of 3,600 seconds (1 hour) are available for 455 days (15 months)
+Note: The longer CloudWatch data is stored, the less information is available, due to aggregation of those data points.

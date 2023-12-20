@@ -123,3 +123,19 @@ Data points with a period of 60 seconds (1 minute) are available for 15 days
 Data points with a period of 300 seconds (5 minutes) are available for 63 days 
 Data points with a period of 3,600 seconds (1 hour) are available for 455 days (15 months)
 Note: The longer CloudWatch data is stored, the less information is available, due to aggregation of those data points.
+
+!!!!!****First, choose the metric to monitor.
+
+Second, choose the metric alarm state (OK, ALARM, INSUFFICIENT_DATA).
+
+Third and fourth, specify three settings to enable CloudWatch to evaluate when to change the alarm state:
+
+Period is the length of time to evaluate the metric or expression to create each individual data point for an alarm. It is expressed in seconds. If you choose one minute as the period, the alarm evaluates the metric once per minute.
+
+Evaluation Periods is the number of the most recent periods, or data points, to evaluate when determining alarm state.
+
+Datapoints to Alarm is the number of data points within the Evaluation Periods that must be breaching to cause the alarm to go to the ALARM state. The breaching data points don't have to be consecutive, they just must all be within the last number of data points equal to Evaluation Period.
+
+Fifth, choose when to initiate the alarm and specify what actions an alarm takes when the state changes.
+
+

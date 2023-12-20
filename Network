@@ -108,3 +108,13 @@ The other response options are incorrect because:
 A system monitor is a hardware or software component used to monitor system resources and performance in a computer system
 Network baselines are ideal performance metrics obtained by measuring your network for a particular time period.
 Security monitoring systems monitors to help protect from potential vulnerabilities and exploits.
+
+!!!!CloudWatch metrics are collected in a time ordered structure and CloudWatch automatically collects metrics from our AWS account relating to the AWS services, products, applications, and so on that you are using/consuming.
+
+
+
+You configure AWS Lambda functions to initiate on a schedule with CloudWatch and monitoring of the metrics.
+
+
+
+CloudWatch collects metrics for most AWS services.  It is not a best-effort attempt to collect metrics but a time ordered structure of detailed monitoring every minute or the default monitoring of every 5 minutes.

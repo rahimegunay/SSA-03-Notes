@@ -1,1 +1,7 @@
+AWS serverless platform
 
+The AWS serverless platform includes a number of fully managed services that are tightly integrated with AWS Lambda and well-suited for serverless applications. 
+Developer tools, including the AWS Serverless Application Model (AWS SAM), help simplify deployment of your Lambda functions and serverless applications.
+
+*Compute- AWS Lambda-Lambda@Edge
+*

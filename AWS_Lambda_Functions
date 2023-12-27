@@ -4,7 +4,14 @@ The AWS serverless platform includes a number of fully managed services that are
 Developer tools, including the AWS Serverless Application Model (AWS SAM), help simplify deployment of your Lambda functions and serverless applications.
 
 *Compute- AWS Lambda-Lambda@Edge
-*
+*Storage- Amazon S3
+*Orchestration- AWS Step Functions
+*Data Stores- Amazon DynamoDB
+*Event Bus- Amazon EventBridge
+*Interprocess Messaging- Amazon SNS, Amazon SQS
+*API Integration- Amazon API Gateway, AWS AppSync
+*Developer Tools- AWS Cloud Development Kit(AWS CDK), AWS Serverless Application Model(AWS SAM)
+
 
 What is AWS Lambda?
 

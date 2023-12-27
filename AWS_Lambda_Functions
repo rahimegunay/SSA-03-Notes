@@ -5,3 +5,14 @@ Developer tools, including the AWS Serverless Application Model (AWS SAM), help 
 
 *Compute- AWS Lambda-Lambda@Edge
 *
+
+What is AWS Lambda?
+
+AWS Lambda is a compute service. You can use it to run code without provisioning or managing servers. Lambda runs your code on a high-availability compute infrastructure. It operates and maintains all of the compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, code monitoring, and logging. With Lambda, you can run code for almost any type of application or backend service. 
+
+Some benefits of using Lambda include the following:
+
+- You can run code without provisioning or maintaining servers.
+- It initiates functions for you in response to events.
+- It scales automatically.
+- It provides built-in code monitoring and logging via Amazon CloudWatch.

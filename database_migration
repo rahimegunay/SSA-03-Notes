@@ -1,1 +1,4 @@
-
+AWS DMS and AWS Schema Conversion Tool (AWS SCT) can help you migrate your databases to or from AWS quickly and securely. 
+Using AWS DMS, your source database remains fully operational during migration, minimizing downtime to applications that rely on the database.
+You can migrate to the same database engine, or switch database engines to modernize your database platform. 
+You can also replicate data to sync source and target databases.
